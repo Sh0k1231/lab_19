@@ -21,15 +21,15 @@ void coutvector(const vector<int>& v) {
     cout << endl;
 }
 
-void inputVector(vector<int>& vec, const string& prompt) {
-    cout << prompt;
-    int value;
-    while (true) {
-        cin >> value;
-        if (value == -1) break;
-        vec.push_back(value);
-    }
-}
+// void inputVector(vector<int>& vec, const string& prompt) {
+//     cout << prompt;
+//     int value;
+//     while (true) {
+//         cin >> value;
+//         if (value == -1) break;
+//         vec.push_back(value);
+//     }
+// }
 
 void addConsole(vector<vector<int>>& vectors, int N, int min_size) {
     for (int i = 0; i < N; ++i) {
